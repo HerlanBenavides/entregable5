@@ -2,7 +2,7 @@ import React from 'react'
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { setUserNameGlobal } from '../store/slices/UserName.slice';
-
+import ash from "../assets/Ash.png"
 const Home = () => {
 
   const dispatch = useDispatch()
@@ -17,7 +17,7 @@ const Home = () => {
 
   return (
     <article className='home-container'>
-      <img className='ash vibrate-1' src="src\assets\Ash.png" alt="" />
+      <img className='ash vibrate-1' src={ash} alt="" />
       <div className='home'>
 
         <form onSubmit={handleSubmit}>

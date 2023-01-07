@@ -283,7 +283,7 @@
 
 .pokedex-id-wrapper {
     text-align: center;
-    background-image: url(.\assets\bosq.png);
+    background-image: url(/public/assets/bosq.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
