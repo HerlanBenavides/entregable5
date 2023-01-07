@@ -77,7 +77,7 @@ const Pokedex = () => {
           </div>
           
         <div className="uno">
-          <img className={pokedex} alt="" />
+          <img className='pokeDeck' src={pokedex} alt="" />
         </div>
 
         <div className='pagination-wrapper'>
