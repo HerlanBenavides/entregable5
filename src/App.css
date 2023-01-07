@@ -4,7 +4,7 @@
 }
 
 .home-container {
-    background: url(.\assets\pika-eve.jpg);
+    background: url(../public/assets/pika-eve.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
