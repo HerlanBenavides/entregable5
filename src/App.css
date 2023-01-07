@@ -163,7 +163,7 @@
 /*********************POKECARD*****************************************/
 
 .pokedex {
-    background-image: url(.\assets\fondoPoke2.jpeg);
+    background-image: url(../public/assets/fondoPoke2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
