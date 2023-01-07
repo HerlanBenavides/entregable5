@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom'
 import Pagination from './Pagination'
 import PokemonCard from './PokemonCard'
 import SelectBytype from './SelectBytype'
+import pokedex from "../assets/pokedex.png"
 
 const Pokedex = () => {
 
@@ -76,7 +77,7 @@ const Pokedex = () => {
           </div>
           
         <div className="uno">
-          <img className='pokeDeck' src="src\assets\pokedex.png" alt="" />
+          <img className={pokedex} alt="" />
         </div>
 
         <div className='pagination-wrapper'>
